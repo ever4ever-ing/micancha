@@ -16,3 +16,6 @@ CREATE TABLE reservation (
     cancha_id INT,
     FOREIGN KEY (cancha_id) REFERENCES cancha(id)
 );
+INSERT INTO cancha (name) VALUES ('Cancha 1');
+INSERT INTO cancha (name) VALUES ('Cancha 2');
+INSERT INTO cancha (name) VALUES ('Cancha 3');
